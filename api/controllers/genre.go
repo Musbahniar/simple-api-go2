@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"encoding/json"
 	"net/http"
 	hc "simple-api-go2/api/constants"
 	"simple-api-go2/api/models"
@@ -56,4 +57,30 @@ func (g *Genre) GetOne(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	handler.HttpResponse(w, http.StatusOK, res)
+}
+
+/**
+ * Function to create Genre
+ * @param  {[http.Response, http.Request]}  [Http Request and Response]
+ * @return {[Object]}   [Success or Error Object]
+ */
+func (g *Genre) CreateGenre(w http.ResponseWriter, r *http.Request) {
+
+	genre := models.CreateGenre{}
+	err := json.NewDecoder(r.Body).Decode(&genre)
+	//validate the request
+	if err != nil {
+		handler.HttpError(w, http.StatusBadRequest, err.Error(), err)
+		return
+	}
+
+	if genre.Name == "" {
+		handler.HttpError(w, http.StatusBadRequest, hc.BAD_REQUEST, r.Body)
+	}
+	res, err := g.genreRepo.Create(r.Context(), &genre)
+	if err != nil {
+		handler.HttpError(w, http.StatusInternalServerError, err.Error(), err.Error())
+		return
+	}
+	handler.HttpResponse(w, http.StatusCreated, res)
 }

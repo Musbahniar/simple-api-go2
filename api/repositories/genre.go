@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"simple-api-go2/api/models"
 	"strconv"
+	"strings"
 )
 
 type GenreRepo struct {
@@ -15,6 +16,24 @@ func NewGenreRepo(db *sql.DB) models.GenreRepo {
 	return &GenreRepo{
 		db: db,
 	}
+}
+
+func (g *GenreRepo) Create(ctx context.Context, r *models.CreateGenre) (*models.CreateGenreResponse, error) {
+	slug, err := g.generateGenreSlug(r.Name)
+	if err != nil {
+		return nil, err
+	}
+	//insert record in database
+	res, err := g.db.Exec(`INSERT INTO genre (name, slug) VALUE (?, ?)`, strings.TrimSpace(r.Name), slug)
+	if err != nil {
+		return nil, err
+	}
+	insertedId, _ := res.LastInsertId()
+	payload := &models.CreateGenreResponse{
+		Id:   insertedId,
+		Slug: slug,
+	}
+	return payload, nil
 }
 
 func (g *GenreRepo) GetAll(ctx context.Context, limit int64, offset int64) ([]*models.Genre, error) {
@@ -62,4 +81,23 @@ func (g *GenreRepo) GetOne(ctx context.Context, id string) (*models.Genre, error
 		return nil, err
 	}
 	return data, nil
+}
+
+func (g *GenreRepo) generateGenreSlug(slug string) (string, error) {
+	var id int32
+	slug = strings.TrimSpace(slug)
+	slug = strings.ToLower(slug)
+	//change all spaces to - in order to create a valid Slug
+	slug = strings.Replace(slug, " ", "-", -1)
+	//check if slug already present in DB
+	row := g.db.QueryRow(`SELECT id FROM genre WHERE slug=?`, slug)
+	err := row.Scan(&id)
+	if err != nil {
+		if err == sql.ErrNoRows {
+			return slug, nil
+		} else {
+			return "", err
+		}
+	}
+	return "", models.ErrAlreadyPresent
 }
