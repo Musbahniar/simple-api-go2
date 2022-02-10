@@ -19,12 +19,16 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 
 	userHandler := controllers.NewUserHandler(db)
 	genreHandler := controllers.NewGenreHandler(db)
+	bidangHandler := controllers.NewBidangHandler(db)
 
 	v1.HandleFunc("/users", userHandler.CreateUser).Methods(http.MethodPost)
 	v1.HandleFunc("/users/verify", userHandler.VerifyUser).Methods(http.MethodPost)
 
 	v1.HandleFunc("/genre/all", genreHandler.GetAll).Methods(http.MethodGet)
 	v1.HandleFunc("/genre/{id}", genreHandler.GetOne).Methods(http.MethodGet)
+
+	v1.HandleFunc("/bidang/all", bidangHandler.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/bidang/{id}", bidangHandler.GetOne).Methods(http.MethodGet)
 
 	//Api Key validation middleare for all routes
 	v1.Use(middleware.ApiKeyMiddleware)
