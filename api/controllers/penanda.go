@@ -8,19 +8,21 @@ import (
 	"simple-api-go2/config/driver"
 	"simple-api-go2/handler"
 	"strconv"
+
+	"github.com/gorilla/mux"
 )
 
-type TahunAjaran struct {
-	tahunajaranRepo models.TahunAjaranRepo
+type Penanda struct {
+	penandaRepo models.PenandaRepo
 }
 
-func NewTahunAjaranHandler(db *driver.DB) *TahunAjaran {
-	return &TahunAjaran{
-		tahunajaranRepo: r.NewTahunAjaranRepo(db.SQL),
+func NewPenandaHandler(db *driver.DB) *Penanda {
+	return &Penanda{
+		penandaRepo: r.NewPenandaRepo(db.SQL),
 	}
 }
 
-func (g *TahunAjaran) GetAll(w http.ResponseWriter, r *http.Request) {
+func (g *Penanda) GetAll(w http.ResponseWriter, r *http.Request) {
 	//get the query params
 	var limit, offset int64
 
@@ -36,7 +38,18 @@ func (g *TahunAjaran) GetAll(w http.ResponseWriter, r *http.Request) {
 		offset, _ = strconv.ParseInt(r.URL.Query().Get("offset"), 10, 64)
 	}
 
-	res, err := g.tahunajaranRepo.GetAll(r.Context(), limit, offset)
+	res, err := g.penandaRepo.GetAll(r.Context(), limit, offset)
+	if err != nil {
+		handler.HttpError(w, http.StatusInternalServerError, err.Error(), err.Error())
+		return
+	}
+	handler.HttpResponse(w, http.StatusOK, res)
+}
+
+func (g *Penanda) GetOne(w http.ResponseWriter, r *http.Request) {
+
+	vars := mux.Vars(r)
+	res, err := g.penandaRepo.GetOne(r.Context(), vars["id"])
 	if err != nil {
 		handler.HttpError(w, http.StatusInternalServerError, err.Error(), err.Error())
 		return

@@ -14,5 +14,4 @@ type TahunAjaran struct {
 
 type TahunAjaranRepo interface {
 	GetAll(ctx context.Context, limit int64, offset int64) ([]*TahunAjaran, error)
-	// GetOne(ctx context.Context, id string) (*Bidang, error)
 }

@@ -10,14 +10,14 @@ type TahunAjaranRepo struct {
 	db *sql.DB
 }
 
-func NewTahunAjaranRepo(db *sql.DB) models.TahunAjaran {
+func NewTahunAjaranRepo(db *sql.DB) models.TahunAjaranRepo {
 	return &TahunAjaranRepo{
 		db: db,
 	}
 }
 
 func (g *TahunAjaranRepo) GetAll(ctx context.Context, limit int64, offset int64) ([]*models.TahunAjaran, error) {
-	rows, err := g.db.Query(`SELECT c_TahunAjaran,c_IsDefault,c_awal,c_akhir, 
+	rows, err := g.db.Query(`SELECT c_TahunAjaran,c_IsDefault,c_awal,c_akhir 
 							FROM t_TahunAjaran WHERE c_Status = 'Aktif' LIMIT ?,?`, offset, limit)
 	if err != nil {
 		return nil, err
