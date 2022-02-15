@@ -22,6 +22,8 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 	bidangHandler := controllers.NewBidangHandler(db)
 	tahunajaranHandler := controllers.NewTahunAjaranHandler(db)
 	penandaHandler := controllers.NewPenandaHandler(db)
+	provinsiHandler := controllers.NewProvinsiHandler(db)
+	distrikHandller := controllers.NewDistrikHandler(db)
 
 	v1.HandleFunc("/users", userHandler.CreateUser).Methods(http.MethodPost)
 	v1.HandleFunc("/users/verify", userHandler.VerifyUser).Methods(http.MethodPost)
@@ -36,6 +38,13 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 
 	v1.HandleFunc("/penanda/all", penandaHandler.GetAll).Methods(http.MethodGet)
 	v1.HandleFunc("/penanda/{id}", penandaHandler.GetOne).Methods(http.MethodGet)
+
+	v1.HandleFunc("/provinsi/all", provinsiHandler.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/provinsi/{id}", provinsiHandler.GetOne).Methods(http.MethodGet)
+
+	v1.HandleFunc("/distrik/all", distrikHandller.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/distrik/{id}", distrikHandller.GetOne).Methods(http.MethodGet)
+	v1.HandleFunc("/distrik/provinsi/{id}", distrikHandller.GetByIdProvinsi).Methods(http.MethodGet)
 
 	//Api Key validation middleare for all routes
 	v1.Use(middleware.ApiKeyMiddleware)
