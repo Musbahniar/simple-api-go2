@@ -1,0 +1,434 @@
+_type: export
+__export_format: 4
+__export_date: 2022-02-15T09:50:57.863Z
+__export_source: insomnia.desktop.app:v2021.7.2
+resources:
+  - _id: req_276fa64bdd5446d8bbf5aa51eb0107fc
+    parentId: fld_214e5ea2251b4f6ba28c9b978b873067
+    modified: 1644918598634
+    created: 1644912394973
+    url: http://localhost:9002/api/v1/distrik/provinsi/1
+    name: GetByIdProvinsi
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_6c10806bc1414679a56e20b3a8772353
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644912394973
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_214e5ea2251b4f6ba28c9b978b873067
+    parentId: fld_b91d237dda624dd087988bc1ca106401
+    modified: 1644911578759
+    created: 1644911573980
+    name: Distrik
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1644906210963
+    _type: request_group
+  - _id: fld_b91d237dda624dd087988bc1ca106401
+    parentId: wrk_5df9f68d0f5047f59d006c88cc52772e
+    modified: 1644906243082
+    created: 1644906210713
+    name: List
+    description: ""
+    environment: {}
+    environmentPropertyOrder: {}
+    metaSortKey: -1644906210788
+    _type: request_group
+  - _id: wrk_5df9f68d0f5047f59d006c88cc52772e
+    parentId: null
+    modified: 1644461344982
+    created: 1644461344982
+    name: GOMarketing
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_517833a7e26f4c31b60f39f3e5a42e32
+    parentId: fld_214e5ea2251b4f6ba28c9b978b873067
+    modified: 1644912409686
+    created: 1644911644452
+    url: http://localhost:9002/api/v1/distrik/8
+    name: GetOne
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_1b72808853c144d8b2388b67dcb78b74
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644911644452
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_de983ac8f8af4345ad825edfd9540e39
+    parentId: fld_214e5ea2251b4f6ba28c9b978b873067
+    modified: 1644911685670
+    created: 1644911585388
+    url: http://localhost:9002/api/v1/distrik/all
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_fceb927064774a33a351afc23e945b2b
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644911585433
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_df10eb6cf4104e77b6828c44f49ff69f
+    parentId: fld_d5d9ceda9d644a8c8351e04baba7f28a
+    modified: 1644897347971
+    created: 1644897266721
+    url: http://localhost:9002/api/v1/provinsi/5
+    name: GetOne
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_1550853344bb4f4e8f7e0b951daf563b
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644897266721
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_d5d9ceda9d644a8c8351e04baba7f28a
+    parentId: fld_b91d237dda624dd087988bc1ca106401
+    modified: 1644913228662
+    created: 1644897164481
+    name: Provinsi
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1644906210938
+    _type: request_group
+  - _id: req_61c15b40090c44bca34cc7f3e7dfad08
+    parentId: fld_d5d9ceda9d644a8c8351e04baba7f28a
+    modified: 1644897276723
+    created: 1644897170448
+    url: http://localhost:9002/api/v1/provinsi/all
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_39559c88e91046da97442d46af10bb09
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644897170448
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_90653812d4944e26b30644b1615c7ec4
+    parentId: fld_9e1daf446f0043db96654771652d89bd
+    modified: 1644911594442
+    created: 1644461377915
+    url: http://localhost:9002/api/v1/bidang/all
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_c306387ad9dd4c8c8b807545b352ba91
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+        disabled: false
+      - id: pair_94ccee3520e54303b130ea51838f6ce7
+        name: X-Requested-With
+        value: XMLHttpRequest
+        description: ""
+        disabled: true
+    authentication: {}
+    metaSortKey: -1644463609568
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_9e1daf446f0043db96654771652d89bd
+    parentId: fld_b91d237dda624dd087988bc1ca106401
+    modified: 1644906293707
+    created: 1644461356589
+    name: Bidang
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1644906210913
+    _type: request_group
+  - _id: req_9151003b1295420b98d63f52f09324a3
+    parentId: fld_9e1daf446f0043db96654771652d89bd
+    modified: 1644911646339
+    created: 1644463609518
+    url: http://localhost:9002/api/v1/bidang/5
+    name: GetOne
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_19f8d9e4abe142f790aca8f6f89c7a2d
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644463609518
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_033d2fa4ef7b44dba21a0463e601ffaf
+    parentId: fld_e7f2cd26be63494dba8da3bc8a0e23b7
+    modified: 1644826422125
+    created: 1644825515680
+    url: http://localhost:9002/api/v1/tp/all
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_eada87efea3b4713bcb068912a6d16e3
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644825515680
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_e7f2cd26be63494dba8da3bc8a0e23b7
+    parentId: fld_b91d237dda624dd087988bc1ca106401
+    modified: 1644906291329
+    created: 1644825490216
+    name: TahunAjaran
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1644906210863
+    _type: request_group
+  - _id: req_21ea744fcd28476ab6eec20d79ca6e50
+    parentId: fld_5b8b3926a1f749968dc3550b16de8435
+    modified: 1644895159077
+    created: 1644826516395
+    url: http://localhost:9002/api/v1/penanda/600
+    name: GetOne
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_4c12dc7b565a4be08a4ed72bd6a1565d
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644826516395
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_5b8b3926a1f749968dc3550b16de8435
+    parentId: fld_b91d237dda624dd087988bc1ca106401
+    modified: 1644906284907
+    created: 1644826404474
+    name: Penanda
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1644906210813
+    _type: request_group
+  - _id: req_74e78a485b8e409da0d73f9bc7f1e80d
+    parentId: fld_5b8b3926a1f749968dc3550b16de8435
+    modified: 1644897200392
+    created: 1644826409106
+    url: http://localhost:9002/api/v1/penanda/all
+    name: GetAll
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_fc589ee004dc4cf38cf1323772d4b32d
+        name: ApiKey
+        value: "{{ _.apiKey }}"
+        description: ""
+    authentication: {}
+    metaSortKey: -1644826409149
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_cb25314dc389c92c56c23b53dfda45f835ad1dc2
+    parentId: wrk_5df9f68d0f5047f59d006c88cc52772e
+    modified: 1644462832923
+    created: 1644461344987
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1644461344987
+    _type: environment
+  - _id: jar_cb25314dc389c92c56c23b53dfda45f835ad1dc2
+    parentId: wrk_5df9f68d0f5047f59d006c88cc52772e
+    modified: 1644812589585
+    created: 1644461344988
+    name: Default Jar
+    cookies:
+      - key: ci_session
+        value: 15efaiuu8erj882kth8im22asi3vspc9
+        expires: 2022-02-11T10:24:24.000Z
+        maxAge: 7200
+        domain: 17.8.20.83
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: true
+        creation: 2022-02-11T03:57:16.225Z
+        lastAccessed: 2022-02-11T08:24:23.567Z
+        id: "8541108861667743"
+      - key: govisit_session
+        value: nl8vro38dcr21k45ncdm87lkb8fpuqld
+        expires: 2022-02-11T06:15:22.000Z
+        maxAge: 7200
+        domain: 192.168.0.155
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: true
+        creation: 2022-02-11T04:15:21.196Z
+        lastAccessed: 2022-02-11T04:15:21.196Z
+        id: "5748982992658833"
+      - key: govisit_session
+        value: c8k1eo4ag8ieruu069kmckogr6drbmuh
+        expires: 2022-02-14T06:15:16.000Z
+        maxAge: 7200
+        domain: 17.8.20.83
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: true
+        creation: 2022-02-12T03:42:42.606Z
+        lastAccessed: 2022-02-14T04:15:13.118Z
+        id: "4314655251785704"
+      - key: govisit_session
+        value: 98ing9equ6n8rc7kuhauhmlsdgh946hd
+        expires: 2022-02-14T06:15:21.000Z
+        maxAge: 7200
+        domain: 17.8.20.84
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: true
+        creation: 2022-02-14T04:15:17.559Z
+        lastAccessed: 2022-02-14T04:15:17.559Z
+        id: "9819290666050904"
+      - key: govisit_session
+        value: s3eakhp939fpe0dlbs2afeu4thbnggh6
+        expires: 2022-02-14T06:23:13.000Z
+        maxAge: 7200
+        domain: go-learn.web.id
+        path: /
+        httpOnly: true
+        extensions:
+          - SameSite=Lax
+        hostOnly: true
+        creation: 2022-02-14T04:22:59.801Z
+        lastAccessed: 2022-02-14T04:23:09.585Z
+        id: "9615912898473209"
+    _type: cookie_jar
+  - _id: spc_4dc58a768f3d48499bbae04829887b83
+    parentId: wrk_5df9f68d0f5047f59d006c88cc52772e
+    modified: 1644461344983
+    created: 1644461344983
+    fileName: GOMarketing
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_e040a58322904e23855b7594dd3a3646
+    parentId: env_cb25314dc389c92c56c23b53dfda45f835ad1dc2
+    modified: 1644462881983
+    created: 1644462836685
+    name: EnvGOMarketing
+    data:
+      apiKey: mjzf7ALWPMNnAgZjlvr5kdbjMA8zAu7stPCnnDqN
+    dataPropertyOrder:
+      "&":
+        - apiKey
+    color: null
+    isPrivate: false
+    metaSortKey: 1644462836685
+    _type: environment
