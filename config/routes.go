@@ -24,6 +24,8 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 	penandaHandler := controllers.NewPenandaHandler(db)
 	provinsiHandler := controllers.NewProvinsiHandler(db)
 	distrikHandller := controllers.NewDistrikHandler(db)
+	sekolahkelasHandler := controllers.NewSekolahKelasHandler(db)
+	sekolahHandler := controllers.NewSekolahHandler(db)
 
 	v1.HandleFunc("/users", userHandler.CreateUser).Methods(http.MethodPost)
 	v1.HandleFunc("/users/verify", userHandler.VerifyUser).Methods(http.MethodPost)
@@ -45,6 +47,14 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 	v1.HandleFunc("/distrik/all", distrikHandller.GetAll).Methods(http.MethodGet)
 	v1.HandleFunc("/distrik/{id}", distrikHandller.GetOne).Methods(http.MethodGet)
 	v1.HandleFunc("/distrik/provinsi/{id}", distrikHandller.GetByIdProvinsi).Methods(http.MethodGet)
+
+	v1.HandleFunc("/sekolahkelas/all", sekolahkelasHandler.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/sekolahkelas/{id}", sekolahkelasHandler.GetOne).Methods(http.MethodGet)
+	v1.HandleFunc("/sekolahkelas/", sekolahkelasHandler.GetByKelompok).Methods(http.MethodGet)
+
+	v1.HandleFunc("/sekolah/all", sekolahHandler.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/sekolah/{id}", sekolahHandler.GetOne).Methods(http.MethodGet)
+	v1.HandleFunc("/sekolah/", sekolahHandler.GetSearchName).Methods(http.MethodGet)
 
 	//Api Key validation middleare for all routes
 	v1.Use(middleware.ApiKeyMiddleware)

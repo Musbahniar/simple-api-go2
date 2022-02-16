@@ -6,10 +6,10 @@ import (
 )
 
 type TahunAjaran struct {
-	TahunAjaran string       `json:"c_TahunAjaran,omitempty"`
-	IsDefault   string       `json:"c_IsDefault,omitempty"`
-	Awal        sql.NullTime `json:"c_awal,omitempty"`
-	Akhir       sql.NullTime `json:"c_akhir"`
+	TahunAjaran string       `json:"tahunajaran,omitempty"`
+	IsDefault   string       `json:"isdefault,omitempty"`
+	Awal        sql.NullTime `json:"tglawal,omitempty"`
+	Akhir       sql.NullTime `json:"tglakhir"`
 }
 
 type TahunAjaranRepo interface {

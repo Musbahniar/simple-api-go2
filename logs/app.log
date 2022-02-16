@@ -1,0 +1,71 @@
+2022-02-16T10:24:57.683+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Error 1054: Unknown column 'c_Kelompok' in 'field list'}, string=Error 1054: Unknown column 'c_Kelompok' in 'field list')
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*SekolahKelas).GetAll
+	F:/golang-go/simple-api-go2/api/controllers/sekolahkelas.go:41
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-16T10:38:24.506+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELECT c_IdSekolahKelas, CONCAT(c_TingkatKelas,' ',c_KelompokSekolah,' ',c_Jurusa' at line 1}, string=Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ELECT c_IdSekolahKelas, CONCAT(c_TingkatKelas,' ',c_KelompokSekolah,' ',c_Jurusa' at line 1)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*SekolahKelas).GetOne
+	F:/golang-go/simple-api-go2/api/controllers/sekolahkelas.go:53
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-16T13:33:11.661+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SSELECT 
+							sekolah.c_IdSekolah,sekolah.c_NamaSekolah,sekolah.c_JenjangPendi' at line 1}, string=Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SSELECT 
+							sekolah.c_IdSekolah,sekolah.c_NamaSekolah,sekolah.c_JenjangPendi' at line 1)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*Sekolah).GetOne
+	F:/golang-go/simple-api-go2/api/controllers/sekolah.go:54
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
