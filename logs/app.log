@@ -69,3 +69,440 @@ net/http.serverHandler.ServeHTTP
 	C:/Program Files/Go/src/net/http/server.go:2879
 net/http.(*conn).serve
 	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:30:54.929+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 EOF}, *errors.errorString=EOF)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:31:54.565+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 Bad Request}, *http.body=&{0xc000004948 <nil> <nil> false true {0 0} true false false 0xe00680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:33:01.739+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 Bad Request}, *http.body=&{0xc000182018 <nil> <nil> false true {0 0} true false false 0xdf0680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:34:51.898+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 Bad Request}, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0xbc0680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:36:20.929+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 namajenisdiskon Bad Request}, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0xa40680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:36:40.418+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 inisialdiskon Bad Request}, *http.body=&{0xc000182018 <nil> <nil> false true {0 0} true false false 0x1270680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:36:51.481+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 inisialdiskon Bad Request}, *http.body=&{0xc000182258 <nil> <nil> false true {0 0} true false false 0x1270680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:32
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:36:57.586+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 EOF}, *errors.errorString=EOF)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:38:14.440+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 namajenisdiskon Bad Request}, *http.body=&{0xc000182018 <nil> <nil> false true {0 0} true false false 0x10c0680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:36
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:38:45.906+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 namajenisdiskon Bad Request}, *http.body=&{0xc000194498 <nil> <nil> false true {0 0} true false false 0x12a0680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:36
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T11:39:31.080+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 kelompok Bad Request}, *http.body=&{0xc0000964b0 <nil> <nil> false true {0 0} true false false 0x12a0680})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:40
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:21:09.610+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 Key: 'CreateJenisDiskon.InisialDiskon' Error:Field validation for 'InisialDiskon' failed on the 'required' tag}, *http.body=&{0xc000004ac8 <nil> <nil> false true {0 0} true false false 0x1572f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:41
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:22:23.761+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 InisialDiskon}, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0xb52f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:41
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:23:59.872+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 InisialDiskon}, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0x462f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:41
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:23:59.873+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 NamaJenisDiskon}, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0x462f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:41
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:28:43.061+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 }, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0xc22f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:42
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:28:43.061+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 }, *http.body=&{0xc0000aa000 <nil> <nil> false true {0 0} true false false 0xc22f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:42
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:30:52.628+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 required}, *http.body=&{0xc000004030 <nil> <nil> false true {0 0} true false false 0xc92f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:42
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-17T14:30:52.629+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 required}, *http.body=&{0xc000004030 <nil> <nil> false true {0 0} true false false 0xc92f20})
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:42
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930

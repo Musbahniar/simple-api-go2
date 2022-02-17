@@ -47,6 +47,14 @@ func HttpError(w http.ResponseWriter, status int, message string, details interf
 	NewHttpResponse(w, status, false, nil, err)
 }
 
+func HttpValidasi(w http.ResponseWriter, status int, message string, payload interface{}) {
+	err := Error{
+		Code:    status,
+		Message: message,
+	}
+	NewHttpResponse(w, status, false, payload, err)
+}
+
 func HttpResponse(w http.ResponseWriter, status int, payload interface{}) {
 	NewHttpResponse(w, status, true, payload, nil)
 }
