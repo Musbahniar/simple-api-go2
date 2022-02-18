@@ -506,3 +506,601 @@ net/http.serverHandler.ServeHTTP
 	C:/Program Files/Go/src/net/http/server.go:2879
 net/http.(*conn).serve
 	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T10:24:22.577+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 sql: Scan error on column index 0, name "c_InisialDiskon": converting driver.Value type []uint8 ("goo") to a int32: invalid syntax}, string=sql: Scan error on column index 0, name "c_InisialDiskon": converting driver.Value type []uint8 ("goo") to a int32: invalid syntax)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:48
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T10:25:34.506+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Data already present}, string=Data already present)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:48
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T10:26:37.450+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Data already present}, string=Data already present)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:48
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T10:54:30.354+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T10:56:49.456+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T11:00:08.425+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T11:00:15.992+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T11:00:32.386+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T11:09:07.000+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:77
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T13:55:06.062+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T13:55:32.685+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T13:55:45.303+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:01:56.571+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Data already present}, string=Data already present)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:49
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:05:18.663+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Requested item is not found!}, string=Requested item is not found!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:07:27.849+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:24:33.236+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:24:41.811+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:24:45.009+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:32:46.123+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:40:21.618+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 json: cannot unmarshal string into Go struct field CreateJenisDiskon.idbidang of type int64}, *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field CreateJenisDiskon.idbidang of type int64)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:31
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:40:40.327+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={400 json: cannot unmarshal string into Go struct field CreateJenisDiskon.idbidang of type int64}, *json.UnmarshalTypeError=json: cannot unmarshal string into Go struct field CreateJenisDiskon.idbidang of type int64)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).CreateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:31
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:50:03.284+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Request no change!}, string=Request no change!)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).UpdateJenisDiskon
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:78
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:56:54.483+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 sql: Scan error on column index 0, name "c_InisialDiskon": converting driver.Value type []uint8 ("ag") to a int64: invalid syntax}, string=sql: Scan error on column index 0, name "c_InisialDiskon": converting driver.Value type []uint8 ("ag") to a int64: invalid syntax)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).GetAll
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:115
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:57:55.617+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 sql: expected 10 destination arguments in Scan, not 11}, string=sql: expected 10 destination arguments in Scan, not 11)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).GetAll
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:115
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T14:58:13.837+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 sql: Scan error on column index 1, name "c_InisialDiskon": converting driver.Value type []uint8 ("ag") to a int64: invalid syntax}, string=sql: Scan error on column index 1, name "c_InisialDiskon": converting driver.Value type []uint8 ("ag") to a int64: invalid syntax)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).GetAll
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:115
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930
+2022-02-18T15:04:01.972+0700	ERROR	logger/zap.go:41	Error While processing Request%!(EXTRA handler.Error={500 Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ?' at line 2}, string=Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ?' at line 2)
+simple-api-go2/logger.Errorf
+	F:/golang-go/simple-api-go2/logger/zap.go:41
+simple-api-go2/handler.HttpError
+	F:/golang-go/simple-api-go2/handler/response.go:46
+simple-api-go2/api/controllers.(*JenisDiskon).GetOne
+	F:/golang-go/simple-api-go2/api/controllers/jenisdiskon.go:126
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+simple-api-go2/middleware.ApiKeyMiddleware.func1
+	F:/golang-go/simple-api-go2/middleware/auth.go:27
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+github.com/gorilla/mux.(*Router).ServeHTTP
+	C:/Users/Musbahniar/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go:210
+simple-api-go2/handler.CORS.func1
+	F:/golang-go/simple-api-go2/handler/cors.go:43
+net/http.HandlerFunc.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2047
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1930

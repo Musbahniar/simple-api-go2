@@ -58,6 +58,10 @@ func handleAppRoutes(r *mux.Router, db *driver.DB) {
 	v1.HandleFunc("/sekolah/", sekolahHandler.GetSearchName).Methods(http.MethodGet)
 
 	v1.HandleFunc("/jenisdiskon", jenisDiskonHandler.CreateJenisDiskon).Methods(http.MethodPost)
+	v1.HandleFunc("/jenisdiskon", jenisDiskonHandler.UpdateJenisDiskon).Methods(http.MethodPut)
+	v1.HandleFunc("/jenisdiskon/{id}", jenisDiskonHandler.Delete).Methods(http.MethodDelete)
+	v1.HandleFunc("/jenisdiskon/all", jenisDiskonHandler.GetAll).Methods(http.MethodGet)
+	v1.HandleFunc("/jenisdiskon/{id}", jenisDiskonHandler.GetOne).Methods(http.MethodGet)
 
 	//Api Key validation middleare for all routes
 	v1.Use(middleware.ApiKeyMiddleware)

@@ -1,15 +1,17 @@
 package helper
 
 func ValidasiBalik(name string) string {
-	// message := fmt.Sprintf("Hello %v", name)
-	// return message
 	switch name {
 	case "required":
 		return "This field is required"
 	case "email":
 		return "Invalid email"
 	case "oneof":
-		return "Pilih salah satu"
+		return "Value can only"
+	case "max":
+		return "More character length"
+	case "min":
+		return "Less character length"
 	default:
 		return ""
 	}
