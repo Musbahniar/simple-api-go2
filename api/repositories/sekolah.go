@@ -72,7 +72,7 @@ func (g *SekolahRepo) GetOne(ctx context.Context, id string) (*models.Sekolah, e
 	)
 	if err != nil {
 		if err == sql.ErrNoRows {
-			return data, nil
+			return nil, nil
 		}
 		return nil, err
 	}

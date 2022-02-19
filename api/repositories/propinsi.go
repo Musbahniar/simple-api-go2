@@ -49,7 +49,7 @@ func (g *ProvinsiRepo) GetOne(ctx context.Context, id string) (*models.Provinsi,
 	)
 	if err != nil {
 		if err == sql.ErrNoRows {
-			return data, nil
+			return nil, nil
 		}
 		return nil, err
 	}

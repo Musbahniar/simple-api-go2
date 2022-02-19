@@ -57,7 +57,7 @@ func (g *BidangRepo) GetOne(ctx context.Context, id string) (*models.Bidang, err
 	)
 	if err != nil {
 		if err == sql.ErrNoRows {
-			return data, nil
+			return nil, nil
 		}
 		return nil, err
 	}
